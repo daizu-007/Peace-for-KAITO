@@ -1,0 +1,4 @@
+! Title: Hide unpleasant Arguments about KAITO from Twitter
+! Homepage: https://github.com/daizu-007/Peace-for-KAITO
+
+x.com##div[data-testid="cellInnerDiv"]:has-text(/KAITO問題/)

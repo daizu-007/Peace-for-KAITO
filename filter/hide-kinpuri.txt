@@ -1,0 +1,4 @@
+! Title: Hide #KAITO from King & Prince Fans for Peace
+! Homepage: https://github.com/daizu-007/Peace-for-KAITO
+
+x.com##div[data-testid="cellInnerDiv"]:has-text(/(?=.*#KAITO)(?=.*#swim|swim?|髙橋海人|King & Prince|King&Prince|キンプリ)/)
