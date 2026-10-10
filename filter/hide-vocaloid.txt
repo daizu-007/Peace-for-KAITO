@@ -1,4 +1,4 @@
 ! Title: Hide #KAITO from VOCALOID Fans for Peace
 ! Homepage: https://github.com/daizu-007/Peace-for-KAITO
 
-x.com##div[data-testid="cellInnerDiv"]:has-text(/(?=.*#KAITO)(?=.*VOCALOID|ボカロ|ボーカロイド|ニコニコ動画|傘村トータ|黒うさP|水野あつ|DDKAITO|nico.ms|nicovideo.jp|sm|調声|調教|KAITO兄さん|兄さん)/)
+x.com##div[data-testid="cellInnerDiv"]:has-text(#KAITO):has-text(/VOCALOID|ボカロ|ボーカロイド|ニコニコ動画|傘村トータ|黒うさP|水野あつ|DDKAITO|nico.ms|nicovideo.jp|sm|調声|調教|KAITO兄さん|兄さん/)
