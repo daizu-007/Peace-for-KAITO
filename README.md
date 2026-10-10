@@ -1,2 +1,2 @@
-# Peacec-for-KAITO
+# Peace-for-KAITO
 #KAITOで揉めている界隈を平和にしたい
