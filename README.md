@@ -70,8 +70,8 @@ https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filt
 
 #KAITOを含まない投稿も対象にします。
 
-[インストール](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fdaizu-007%2FPeace-for-KAITO%2Frefs%2Fheads%2Fmain%2Ffilter%2Fhide-arguments.txt\&title=Hide%20unpleasant%20Arguments%20about%20KAITO%20from%20Twitter)
+[インストール](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fdaizu-007%2FPeace-for-KAITO%2Frefs%2Fheads%2Fmain%2Ffilter%2Fhide-argument.txt\&title=Hide%20unpleasant%20Arguments%20about%20KAITO%20from%20Twitter)
 
 ```
-https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filter/hide-arguments.txt
+https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filter/hide-argument.txt
 ```
