@@ -75,3 +75,13 @@ https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filt
 ```
 https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filter/hide-argument.txt
 ```
+
+### Hide YouTube videos related to King & Prince and Kaito Takahashi
+King & Princeと高橋海人に関するYouTube動画を非表示にするフィルターです。[コンテクスト](info/yt-low-rating.md)  
+このフィルターを導入することで、YouTubeの不安定なアルゴリズムに頼らず、髙橋海人氏関連のコンテンツを可能な限り非表示にできます。  
+  
+[インストール](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fdaizu-007%2FPeace-for-KAITO%2Frefs%2Fheads%2Fmain%2Ffilter%2Fyt-kinpuri-blocker.txt\&title=Hide%20YouTube%20videos%20related%20to%20King%20and%20Prince%20and%20Kaito%20Takahashi)
+
+```
+https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filter/yt-kinpuri-blocker.txt
+```
