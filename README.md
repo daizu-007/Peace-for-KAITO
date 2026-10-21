@@ -46,7 +46,7 @@ VivaldiでuBlock Originを使う方法: https://note.com/appgrove/n/nbd987e64136
 ### Hide #KAITO from King & Prince Fans for Peace
 VOCALOID界隈向けのフィルターです。
 
-#KAITOを含む投稿のうち、King & Princeのファンが投稿したと思われる投稿を非表示にします。
+#KAITOを含む投稿のうち、King & Princeのファンが投稿したと思われる投稿を非表示にします。  
 
 [インストール](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fdaizu-007%2FPeace-for-KAITO%2Frefs%2Fheads%2Fmain%2Ffilter%2Fhide-kinpuri.txt\&title=Hide%20KAITO%20from%20King%20and%20Prince%20Fans%20for%20Peace)
 
@@ -57,7 +57,7 @@ https://raw.githubusercontent.com/daizu-007/Peace-for-KAITO/refs/heads/main/filt
 ### Hide #KAITO from VOCALOID Fans for Peace
 King & Prince界隈向けのフィルターです。
 
-#KAITOを含む投稿のうち、VOCALOIDのファンが投稿したと思われる投稿を非表示にします。
+#KAITOを含む投稿のうち、VOCALOIDのファンが投稿したと思われる投稿を非表示にします。  
 
 [インストール](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2Fdaizu-007%2FPeace-for-KAITO%2Frefs%2Fheads%2Fmain%2Ffilter%2Fhide-vocaloid.txt\&title=Hide%20KAITO%20from%20VOCALOID%20Fans%20for%20Peace)
 

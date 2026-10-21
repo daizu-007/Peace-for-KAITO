@@ -1,4 +1,5 @@
 ! Title: Hide #KAITO from King & Prince Fans for Peace
 ! Homepage: https://github.com/daizu-007/Peace-for-KAITO
 
-x.com##div[data-testid="cellInnerDiv"]:has-text(#KAITO):has-text(/#swim|swim|髙橋海人|King\s*&\s*Prince|キンプリ/)
+! #KAITO を含み、King & Prince 界隈の話題を含む投稿を非表示
+x.com##body:xpath(//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//span[not(ancestor-or-self::div[@contenteditable="true" or @role="textbox" or starts-with(@data-testid,"tweetTextarea")]) and contains(text(), "#KAITO")] and .//span[not(ancestor-or-self::div[@contenteditable="true" or @role="textbox" or starts-with(@data-testid,"tweetTextarea")]) and (contains(text(), "swim") or contains(text(), "髙橋海人") or contains(text(), "King & Prince") or contains(text(), "King&Prince") or contains(text(), "King ＆ Prince") or contains(text(), "King＆Prince") or contains(text(), "キンプリ") or contains(text(), "ジャニオタ"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)]])
