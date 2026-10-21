@@ -2,7 +2,7 @@
 ! Homepage: https://github.com/daizu-007/Peace-for-KAITO
 
 ! KAITO に関する不愉快な論争を含む投稿を非表示
-x.com##body:xpath(//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//div[@data-testid="tweetText" and (contains(., "KAITO問題") or contains(., "おかんむり") or contains(., "お冠") or contains(., "汚冠") or contains(., "ボ加") or contains(., "暴加"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)]))
+x.com##:xpath('//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//div[@data-testid="tweetText" and (contains(., "KAITO問題") or contains(., "おかんむり") or contains(., "お冠") or contains(., "汚冠") or contains(., "ボ加") or contains(., "暴加"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)])')
 
-# KAITOタグを含むもの
-x.com##body:xpath(//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//div[@data-testid="tweetText" and contains(., "#KAITO")] and .//div[@data-testid="tweetText" and (contains(., "棲み分け") or contains(., "声明"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)]))
+! KAITOタグを含むもの
+x.com##:xpath('//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//div[@data-testid="tweetText" and contains(., "#KAITO") and (contains(., "棲み分け") or contains(., "声明"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)])')
