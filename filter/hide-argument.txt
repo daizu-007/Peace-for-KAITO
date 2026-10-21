@@ -3,3 +3,6 @@
 
 ! KAITO に関する不愉快な論争を含む投稿を非表示
 x.com##body:xpath(//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//span[not(ancestor-or-self::div[@contenteditable="true" or @role="textbox" or starts-with(@data-testid,"tweetTextarea")]) and (contains(text(), "KAITO問題") or contains(text(), "おかんむり") or contains(text(), "お冠") or contains(text(), "汚冠") or contains(text(), "ボ加") or contains(text(), "暴加"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)]])
+
+# KAITOタグを含むもの
+x.com##body:xpath(//div[@data-testid="cellInnerDiv" and not(.//div[@contenteditable="true" or starts-with(@data-testid,"tweetTextarea")]) and .//span[not(ancestor-or-self::div[@contenteditable="true" or @role="textbox" or starts-with(@data-testid,"tweetTextarea")]) and contains(text(), "#KAITO")] and .//span[not(ancestor-or-self::div[@contenteditable="true" or @role="textbox" or starts-with(@data-testid,"tweetTextarea")]) and (contains(text(), "棲み分け") or contains(text(), "声明"))] and .//div[@data-testid="User-Name"]/div/div/a[@role="link" and not(@href=//a[@aria-label="プロフィール"]/@href)]])
